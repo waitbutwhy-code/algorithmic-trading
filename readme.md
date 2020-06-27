@@ -1,5 +1,16 @@
 # Virtual environments
 
+
+## Conda
+1. Use 
+```
+$ conda env create algo.yml
+```
+
+[Working with conda environments](https://www.notion.so/Scratchpad-1bfa9b27e6094733adce3ded3a3f8d87#90b5bd205551418db960447d5413863a)
+
+## Virtualenv
+
 1. Install virtual env
 ```
 pip install virtualenv
