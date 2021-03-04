@@ -69,7 +69,7 @@ tickers = ["MSFT","AAPL","FB","AMZN","INTC", "CSCO","VZ","IBM","QCOM","LYFT"]
 
 ohlc_intraday = {} # directory with ohlc value for each stock            
 #key_path = "./alphaVantage/key.txt"
-ts = TimeSeries(key="MB8I1RKT3UNNBVU8", output_format='pandas')
+ts = TimeSeries(key="", output_format='pandas')
 
 attempt = 0 # initializing passthrough variable
 drop = [] # initializing list to store tickers whose close price was successfully extracted
